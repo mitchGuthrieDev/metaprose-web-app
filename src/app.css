@@ -1,0 +1,39 @@
+/* src/app.css */
+
+/* 1. CSS Reset + Box-Sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. CSS Variables for easy theme tweaks */
+:root {
+  --bg: #111;
+  --panel-bg: #1f1f1f;
+  --text: #eee;
+  --text-muted: #888;
+  --accent: #4c8fff;
+  --border: #333;
+  --font-sans: system-ui, sans-serif;
+  --font-mono: Menlo, Monaco, monospace;
+}
+
+/* 3. Base styles */
+html, body {
+  height: 100%;
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

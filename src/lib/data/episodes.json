@@ -1,0 +1,21 @@
+[
+  {
+    "slug": "01",
+    "title": "Grief",
+    "audio": "https://stream.scalineaudio.net/Grief%20%5BMetaprose%5D.mp3",
+    "description": "/descriptions/01.md",
+    "date": "2020-04-20",
+    "duration": 3600,
+    "artwork": "/images/episodes/01.jpg"
+  },
+  {
+    "slug": "02",
+    "title": "ACLSD",
+    "audio": "https://stream.scalineaudio.net/ACLSD%20%5BMetaprose%5D.mp3",
+    "description": "/descriptions/02.md",
+    "date": "2020-04-27",
+    "duration": 2700,
+    "artwork": "/images/episodes/02.jpg"
+  }
+  
+]
